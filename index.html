@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Troco</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <main class="container">
+    <div class="card">
+
+      <h1>💰 Calculadora de Troco</h1>
+
+      <div class="input-group">
+        <label>Preço do produto</label>
+        <input type="text" id="preco" placeholder="Ex: 25,50">
+      </div>
+
+      <div class="input-group">
+        <label>Valor pago</label>
+        <input type="text" id="pago" placeholder="Ex: 30,00">
+      </div>
+
+      <button id="calcular">
+        Calcular Troco
+        <span class="ripple"></span>
+      </button>
+
+      <div id="resultado" class="resultado">
+        <p class="placeholder">Digite os valores para calcular</p>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+  </html>
